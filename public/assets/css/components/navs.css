@@ -1,0 +1,14 @@
+.nav-pills .nav-link {
+    color: #ffffff;
+}
+.navbar-white {
+	background-color: #f2f2f2;
+}
+
+.nav-link.active ,.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+   background-color: unset;
+   font-weight: bold;
+}
+.nav-pills .nav-link:not(.active):hover{
+	color: var(--secondary-color);
+}

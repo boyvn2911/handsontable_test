@@ -1,0 +1,17 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	--main-color: #006c99;
+	--secondary-color: #e18c11;
+	--maintext-color: #4b4b4b;
+}
+.user-panel a,.user-panel span{
+	color: #FFFFFF;
+}
+.user-panel{
+	padding-bottom: 	20px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1); 
+}
+a:not([href]):not([tabindex]) {
+    color: var(--main-color);
+}

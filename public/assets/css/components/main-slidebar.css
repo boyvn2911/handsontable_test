@@ -1,0 +1,116 @@
+.sidebar{
+	    height: calc(100% - 305px);
+		padding-left: 0px;
+		padding-right: 0px;
+		
+		
+}
+.sidebar-asgl{
+	background-color: #006c99;
+	
+}
+.brand-link{
+	text-align: center;
+	
+}
+.brand-link img{
+	height: 100%;
+	/*padding-right: 15px;*/
+}
+.info{
+	text-align: center;
+	margin: auto;
+}
+
+.nav-item .nav-treeview{
+	background-color: #fff;
+}
+.nav-item .nav-treeview .nav-item .nav-link{
+	border-bottom: 1px solid  #ececec;
+	color: #6d6a68;
+}
+
+.nav-sidebar .nav-link p {
+	display: inline-block;
+    margin: 0;
+}
+.nav-sidebar .nav-item>.nav-link {
+	height: 50px;
+	list-style: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	line-height: 50px;
+	margin: unset;
+}
+
+.nav-sidebar .nav-link>.right, .nav-sidebar .nav-link>p>.right{
+	top: 50%;
+    transform: translateY(-50%);
+}
+.nav-sidebar>.nav-item {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.nav-sidebar>.nav-item:first-child{
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-menu{
+	flex-grow: 1;
+}
+.sidebar-footer{
+	height: 105px;
+	border-top:  1px solid rgba(255, 255, 255, 0.1);
+	
+}
+.sidebar-footer .nav-sidebar >.nav-item{
+	border: none;
+}
+.sidebar-footer div{
+	margin: auto 0;
+}
+
+.project-panel{
+	text-align: center;
+	color: #ffffff;
+	height: 50px;
+	margin-bottom: 40px;
+}
+.project-name{
+	display: block;
+	font-size: 18px;
+	font-weight: bold;
+
+}
+.project-ver{
+	display: block;
+}
+.project-ver i{
+	color: var(--secondary-color);
+}
+.nav-sidebar .nav-link>.right, .nav-sidebar .nav-link>p>.right {
+	color: var(--secondary-color);
+}
+.nav-sidebar>.nav-item .nav-icon {
+	margin-right: 15px;
+	
+}
+
+.nav-sidebar .menu-open>.nav-link i.right {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.custome-icon{
+	position: relative;
+}
+.custome-icon:before{
+	display: block;
+	position: relative;
+	transform: translateY(3px);
+	
+	content: '';
+	background-image: url("../images/callsplit.png");
+	background-size: cover;
+	margin: auto;
+	width: 18px;
+	height: 17px;
+}

@@ -1,0 +1,70 @@
+.content-wrapper{
+	background-color: #ffffff;
+}
+.content-header{
+	padding: 20px 30px;
+	height: 70px;
+}
+.content-wrapper>.content {
+    padding: 0 30px;
+}
+.content-header h1{
+	color: var(--maintext-color);
+	padding:unset;
+	font-size: 24px;
+}
+.img-asgl{
+	width: 120px;
+	height: 120px;
+	border: 2px solid  #ffffff;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.img-asgl::before{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+    transform: translate(-50%, -50%);
+	height: 124px;
+	width: 124px;
+	border-radius: 62px;
+	display: block;
+	content: '';
+	border: 2px solid var(--secondary-color);
+}
+.img-asgl::after {
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	position: absolute;
+	bottom: -4px;
+	right: -4px;
+	height: 30px;
+	width: 30px;
+	border-radius: 15px;
+	display: block;
+	content: '\f030';
+	background-color: #b1afaf;
+	color: white;
+	line-height: 30px;
+}
+.box-profile{
+	padding: 28px 10px;
+}
+.profile-username {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--main-color);
+
+    margin-top: 13px;
+    margin-bottom: 5px;
+}
+.profile-code p{
+	color: var(--main-color);
+	margin-bottom: 22px;
+}
+.profile-code p:first-child {
+	color: var(--maintext-color);
+	font-weight: bold;
+	margin-right: 4px;
+}

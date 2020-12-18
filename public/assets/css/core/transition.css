@@ -1,0 +1,13 @@
+.main-sidebar, .main-sidebar::before {
+	width: 265px;
+}
+.layout-fixed .brand-link{
+	width: unset;
+	height: 110px;
+}
+@media (min-width: 768px){
+	body:not(.sidebar-mini-md) .content-wrapper, body:not(.sidebar-mini-md) .main-footer, body:not(.sidebar-mini-md) .main-header {
+    transition: margin-left .3s ease-in-out;
+    margin-left: 265px;
+	}
+}

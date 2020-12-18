@@ -1,0 +1,23 @@
+.page-item.active .page-link {
+    background-color:  var(--main-color);
+	border-color: var(--main-color);
+}
+.page-link{
+	color: #333333;
+}
+.bootstrap-table input[type=text]{
+
+	width: 255px;
+	height: 40px;
+	line-height: 40px;	
+	margin: 0 22px;
+}
+.bootstrap-table .btn-asgl-primary{
+	margin: 0 22px;
+}
+.bootstrap-table td, .bootstrap-table th ,.bootstrap-table span{
+	color: var(--maintext-color);
+}
+.bootstrap-table .page-size{
+	color: #ffffff;
+}

@@ -1,0 +1,9 @@
+.card-asgl{
+    border-top: 6px solid var(--main-color);
+}
+.card-primary.card-outline-tabs>.card-header a.active {
+    border-top: 5px solid var(--main-color);
+}
+.card.card-outline-tabs .card-header a {
+    color: var(--maintext-color);
+}

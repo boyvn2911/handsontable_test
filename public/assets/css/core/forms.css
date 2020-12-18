@@ -1,0 +1,77 @@
+.form-group {
+    margin-bottom: 23px;
+}
+.form-group label {
+    margin-bottom: 5px;
+    color: var(--maintext-color);
+    
+}
+.form-group input {
+    font-size: 14px;
+    height: 32px;    
+}
+label:not(.form-check-label):not(.custom-file-label) {
+    font-weight: normal;
+}
+.group-header{
+	margin-bottom: 18px;
+	color: var(--main-color);
+	font-weight: bold;
+}
+.group{
+	margin-bottom: 13px;
+}
+.custom-switch {
+    padding-left: 50px;
+}
+.custom-switch .custom-control-label::before {
+	height: 20px;
+	width: 40px;
+	border-radius: 10px;
+	left: -50px;
+	top: 50%;
+	transform: translateY(-50%);
+    
+	
+}
+
+.custom-switch .custom-control-label::after {
+    
+    top: 50%;
+    transform: translateY(-50%);
+    left:  -48px;
+    width: 16px;
+    height: 16px;
+}
+.custom-switch.custom-switch-off-danger .custom-control-input~.custom-control-label::before {
+    background: var(--secondary-color); 
+    border: unset;
+}
+.custom-switch.custom-switch-on-success .custom-control-input:checked~.custom-control-label::before {
+	background: var(--main-color); 
+	border: unset;
+}
+
+
+.custom-switch.custom-switch-off-danger .custom-control-input~.custom-control-label::after {
+    background: #ffffff; 
+    border: unset;
+}
+.custom-switch.custom-switch-off-danger .custom-control-input:checked~ .custom-control-label::after {
+    background: #ffffff; 
+    border: unset;
+    /*transform: translateX(20px);  */
+    /*top: 50%;*/
+    transform: translate(20px, -50%);
+    
+}
+.btn-asgl{
+	color: #fff;
+    background-color: var(--main-color);
+    border-color: unset;
+    box-shadow: none;
+    font-weight: bold;
+    width: 255px;
+    height: 40px;
+    font-size: 14px;
+}

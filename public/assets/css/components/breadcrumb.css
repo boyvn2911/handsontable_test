@@ -1,0 +1,22 @@
+.breadcrumb-item+.breadcrumb-item::before {
+   	font-family: "Font Awesome 5 Free";
+    color: #6c757d;
+    content: "\f30b";
+    font-weight: 900;
+    padding-right: 10px;
+}	
+.breadcrumb-item+.breadcrumb-item{
+	padding-left: 10px;
+}
+.breadcrumb-item {
+   font-size: 14px;
+  
+}
+.breadcrumb-item a {
+   color: var(--maintext-color);
+   font-weight: bold;
+}
+.breadcrumb-item .home-icon{
+	margin-right: 10px;
+	color: var(--secondary-color);
+}
